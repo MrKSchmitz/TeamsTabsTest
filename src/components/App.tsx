@@ -10,9 +10,9 @@ import {
 import { HashRouter as Router, Navigate, Route, Routes } from "react-router-dom";
 import { useTeamsUserCredential } from "@microsoft/teamsfx-react";
 import Tab1 from "./Tab1";
-import Tab2 from "./Tab1";
+import Tab2 from "./Tab2";
 import { TeamsFxContext } from "./Context";
-import config from "./sample/lib/config";
+import config from "./config";
 
 /**
  * The main app which handles the initialization and routing

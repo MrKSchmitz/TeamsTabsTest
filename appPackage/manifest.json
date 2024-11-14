@@ -27,10 +27,21 @@
     "configurableTabs": [],
     "staticTabs": [
         {
-            "entityId": "index",
-            "name": "Home",
-            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/tab",
-            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/tab",
+            "entityId": "tab1",
+            "name": "Tab1",
+            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/tab1",
+            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/tab1",
+            "scopes": [
+                "personal",
+                "groupChat",
+                "team"
+            ]
+        },
+        {
+            "entityId": "tab2",
+            "name": "Tab2",
+            "contentUrl": "${{TAB_ENDPOINT}}/index.html#/tab2",
+            "websiteUrl": "${{TAB_ENDPOINT}}/index.html#/tab2",
             "scopes": [
                 "personal",
                 "groupChat",
